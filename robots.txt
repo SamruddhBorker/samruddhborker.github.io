@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://samruddhborker.github.io/sitemap.xml
