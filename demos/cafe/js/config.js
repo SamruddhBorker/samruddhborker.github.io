@@ -19,9 +19,9 @@ window.SITE = {
   businessType: "CafeOrCoffeeShop", // any schema.org LocalBusiness subtype
   priceRange: "₹₹",
 
-  phone: "+91 00000 00000", // shown on the page
-  phoneE164: "+910000000000", // used in tel: links + JSON-LD
-  whatsapp: "910000000000", // country code + number, digits only
+  phone: "+91 95291 58837", // shown on the page
+  phoneE164: "+919529158837", // used in tel: links + JSON-LD
+  whatsapp: "919529158837", // country code + number, digits only
   whatsappMessage: "Hi Coastal Café! I'd like to book a table.",
   email: "hello@example.com",
 

@@ -11,9 +11,9 @@ window.SITE = {
   businessType: "LocalBusiness",
   priceRange: "₹₹",
 
-  phone: "+91 00000 00000",
-  phoneE164: "+910000000000",
-  whatsapp: "910000000000",
+  phone: "+91 95291 58837",
+  phoneE164: "+919529158837",
+  whatsapp: "919529158837",
   whatsappMessage: "Hi Mhadei Classes! I'd like to ask about admission.",
 
   address: {
