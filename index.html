@@ -5,14 +5,14 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
   <title>Samruddh Borker | Websites for Goa businesses</title>
-  <meta name="description" content="Fast, phone-friendly websites for homestays, coaching classes, cafés and local businesses in Goa, with enquiries that arrive straight in WhatsApp. Based in Ponda.">
+  <meta name="description" content="Fast, phone-first websites for homestays, coaching classes, cafés and local businesses in Goa, with enquiries that arrive straight in WhatsApp. Based in Ponda.">
   <link rel="canonical" href="https://samruddhborker.github.io/">
-  <meta name="theme-color" content="#0f6e74">
+  <meta name="theme-color" content="#0b1a1d">
 
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="Samruddh Borker">
-  <meta property="og:title" content="A website that sends customers straight to your WhatsApp">
-  <meta property="og:description" content="Websites for Goa businesses, built in person from Ponda. See three example sites and try the enquiry form.">
+  <meta property="og:title" content="Turn Google searches into WhatsApp enquiries">
+  <meta property="og:description" content="Phone-first websites for Goa businesses, built in person from Ponda. Try three live example sites.">
   <meta property="og:url" content="https://samruddhborker.github.io/">
   <meta property="og:image" content="https://samruddhborker.github.io/img/og-image.png">
   <meta property="og:image:width" content="1200">
@@ -21,7 +21,11 @@
   <meta name="twitter:card" content="summary_large_image">
 
   <link rel="icon" href="img/favicon.svg" type="image/svg+xml">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600&amp;family=Inter+Tight:wght@600;700&amp;display=swap">
   <link rel="stylesheet" href="css/site.css">
+  <script src="js/site.js" defer></script>
 
   <script type="application/ld+json">
   {
@@ -41,116 +45,214 @@
 <body>
   <a class="skip-link" href="#main">Skip to content</a>
 
-  <header class="top">
-    <div class="wrap top-inner">
-      <a class="name" href="#main">Samruddh Borker</a>
+  <header class="nav">
+    <div class="wrap nav-inner">
+      <a class="logo" href="#main" aria-label="Samruddh Borker, back to top"><span class="logo-mark" aria-hidden="true">SB</span><span>Samruddh Borker</span></a>
       <nav aria-label="Main">
-        <ul class="top-links" role="list">
+        <ul class="nav-links" role="list">
           <li><a href="#examples">Examples</a></li>
-          <li><a href="#work">Real work</a></li>
-          <li><a href="#packages">Packages</a></li>
+          <li><a href="#work">Work</a></li>
+          <li><a href="#pricing">Pricing</a></li>
+          <li><a href="#faq">FAQ</a></li>
         </ul>
       </nav>
+      <a class="btn btn-sm btn-wa" href="https://wa.me/919529158837?text=Hi%20Samruddh%2C%20I%20saw%20your%20website.%20I%27d%20like%20to%20know%20more%20about%20a%20website%20for%20my%20business." target="_blank" rel="noopener">WhatsApp me</a>
     </div>
   </header>
 
   <main id="main">
-    <section class="intro">
-      <div class="wrap intro-inner">
-        <div>
-          <p class="kicker">For homestays, coaching classes, cafés and local businesses in Goa</p>
-          <h1>A website that sends customers straight to your WhatsApp</h1>
-          <p class="lead">I visit your business, take the photos, write the text with you and build a fast, phone-friendly site. Customers fill in a short form, and the enquiry reaches your WhatsApp ready to answer.</p>
+    <section class="hero" aria-labelledby="hero-title">
+      <div class="wrap hero-inner">
+        <div class="hero-copy">
+          <p class="pill"><span class="dot" aria-hidden="true"></span>Websites for Goa businesses · Based in Ponda</p>
+          <h1 id="hero-title">Turn Google searches into <span class="hl">WhatsApp enquiries</span>.</h1>
+          <p class="hero-lead">Fast, phone-first websites for homestays, coaching classes and cafés. I visit, take the photos and write the text with you, and you're live in about a week.</p>
           <div class="actions">
-            <a class="btn" href="https://wa.me/919529158837?text=Hi%20Samruddh%2C%20I%20saw%20your%20website.%20I%27d%20like%20to%20know%20more%20about%20a%20website%20for%20my%20business." target="_blank" rel="noopener">Chat on WhatsApp</a>
-            <a class="btn btn-quiet" href="#examples">See example sites</a>
+            <a class="btn btn-wa" href="https://wa.me/919529158837?text=Hi%20Samruddh%2C%20I%20saw%20your%20website.%20I%27d%20like%20to%20know%20more%20about%20a%20website%20for%20my%20business." target="_blank" rel="noopener">Chat on WhatsApp</a>
+            <a class="btn btn-ghost" href="#examples">See live examples <span aria-hidden="true">→</span></a>
           </div>
-          <p class="local">Based in Ponda. I work in Konkani, Marathi, Hindi and English.</p>
+          <ul class="proof" role="list">
+            <li>Live in 5 to 10 days</li>
+            <li>You own everything</li>
+            <li>Konkani, Marathi, Hindi, English</li>
+          </ul>
         </div>
 
-        <figure class="chat">
-          <div class="chat-head" aria-hidden="true"><span class="chat-avatar">P</span> Priya Kamat</div>
-          <div class="chat-body">
-            <p class="bubble">Hi Casa Mangueira! I'd like to check availability.<br><br>Name: Priya Kamat<br>Check-in: 24 Dec 2026<br>Nights: 3<br>Guests: 2<span class="bubble-time">9:41 pm</span></p>
+        <div class="hero-visual">
+          <figure class="phone">
+            <div class="screen"><img src="img/shot-homestay-phone.webp" alt="The Casa Mangueira example site on a phone" width="600" height="1298" fetchpriority="high"></div>
+          </figure>
+          <div class="chat-card" role="img" aria-label="Example of an enquiry arriving in WhatsApp: check-in 24 December, 3 nights, 2 guests">
+            <div class="chat-head">
+              <span class="chat-icon" aria-hidden="true"><svg viewBox="0 0 32 32"><path fill="currentColor" d="M16 3a13 13 0 00-11.2 19.6L3 29l6.6-1.7A13 13 0 1016 3zm5.8 15.7c-.3-.2-1.9-1-2.2-1s-.5-.2-.7.2-.8 1-1 1.2-.4.2-.7 0a8.7 8.7 0 01-4.3-3.8c-.3-.6.3-.5.9-1.7.1-.2 0-.4 0-.5l-1-2.4c-.3-.6-.5-.5-.7-.5h-.6a1.2 1.2 0 00-.9.4 3.6 3.6 0 00-1.1 2.7 6.3 6.3 0 001.3 3.3 14.4 14.4 0 005.5 4.9c2 .9 2.9 1 3.9.8a3.3 3.3 0 002.2-1.5 2.7 2.7 0 00.2-1.5c-.1-.2-.3-.3-.6-.4z"/></svg></span>
+              <strong>New enquiry</strong>
+              <span class="chat-time">9:41 pm</span>
+            </div>
+            <p>Hi Casa Mangueira! I'd like to check availability.</p>
+            <p class="chat-meta">Check-in 24 Dec · 3 nights · 2 guests</p>
           </div>
-          <figcaption>How an enquiry reaches you, from the homestay example. The guest is a sample.</figcaption>
-        </figure>
+          <p class="visual-note">From the Casa Mangueira example site. The guest is a sample.</p>
+        </div>
       </div>
     </section>
 
-    <section class="section" aria-labelledby="how-title">
+    <section class="strip" aria-label="Who it's for">
+      <div class="wrap strip-inner">
+        <p>Built for</p>
+        <ul role="list">
+          <li>Homestays</li>
+          <li>Guesthouses</li>
+          <li>Coaching classes</li>
+          <li>Dance and music schools</li>
+          <li>Cafés</li>
+          <li>Local services</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section" aria-labelledby="why-title">
       <div class="wrap">
-        <h2 id="how-title">How it works</h2>
+        <div class="section-head reveal">
+          <p class="eyebrow">Why it works</p>
+          <h2 id="why-title">Everything a customer needs, and nothing they have to hunt for.</h2>
+        </div>
+        <ul class="features" role="list">
+          <li class="reveal">
+            <span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M21 12a8.5 8.5 0 01-12.6 7.4L3 21l1.6-5.2A8.5 8.5 0 1121 12z"/><path d="M8.5 11h7M8.5 14h4"/></svg></span>
+            <h3>Enquiries land in WhatsApp</h3>
+            <p>Every form arrives as a message that's already written out, so nothing gets lost in DMs or missed calls.</p>
+          </li>
+          <li class="reveal">
+            <span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><rect x="6" y="2.5" width="12" height="19" rx="2.5"/><path d="M10.5 18.5h3"/></svg></span>
+            <h3>Made for phones first</h3>
+            <p>Fast pages, big buttons and clear prices, built for the way your customers actually browse.</p>
+          </li>
+          <li class="reveal">
+            <span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="11" cy="11" r="7"/><path d="M20.5 20.5l-4.6-4.6"/></svg></span>
+            <h3>Easy to find on Google</h3>
+            <p>Your site and your Google listing point to each other, with the basics set up properly from day one.</p>
+          </li>
+          <li class="reveal">
+            <span class="icon" aria-hidden="true"><svg viewBox="0 0 24 24"><circle cx="12" cy="8" r="3.5"/><path d="M4.5 20.5a7.5 7.5 0 0115 0"/></svg></span>
+            <h3>Done with you, in person</h3>
+            <p>I come to you, take the photos and write the text in your language. You only have to check it.</p>
+          </li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="section section-alt" aria-labelledby="how-title">
+      <div class="wrap">
+        <div class="section-head reveal">
+          <p class="eyebrow">How it works</p>
+          <h2 id="how-title">From first visit to live site in about a week.</h2>
+        </div>
         <ol class="steps" role="list">
-          <li>
+          <li class="reveal">
+            <span class="step-num">01</span>
             <h3>We meet at your place</h3>
             <p>I take the photos and note what customers keep asking you, so you don't have to write anything.</p>
           </li>
-          <li>
+          <li class="reveal">
+            <span class="step-num">02</span>
             <h3>I build it</h3>
             <p>You get a private link to check on your own phone, and we fix anything that isn't right.</p>
           </li>
-          <li>
+          <li class="reveal">
+            <span class="step-num">03</span>
             <h3>You start getting enquiries</h3>
-            <p>The site goes live on your own domain, with enquiries going to your WhatsApp and your Google listing pointing to it.</p>
+            <p>Your site goes live on your own domain, enquiries go to your WhatsApp, and your Google listing points to it.</p>
           </li>
         </ol>
       </div>
     </section>
 
-    <section class="section section-alt" id="examples" aria-labelledby="examples-title">
+    <section class="section" id="examples" aria-labelledby="examples-title">
       <div class="wrap">
-        <h2 id="examples-title">Try an example site</h2>
-        <p class="section-lead">These three businesses are made up, so you can test everything. Fill in a form and WhatsApp opens with the message written. It comes to me, so feel free to say hello.</p>
+        <div class="section-head reveal">
+          <p class="eyebrow">Live examples</p>
+          <h2 id="examples-title">Don't take my word for it. Try one.</h2>
+          <p class="section-lead">These three businesses are made up, so you can test everything. Fill in a form and WhatsApp opens with the message written. It comes to me, so feel free to say hello.</p>
+        </div>
         <ul class="examples" role="list">
-          <li>
-            <img src="https://images.pexels.com/photos/15266233/pexels-photo-15266233.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=640" alt="A yellow Goan house with a long white balcony" width="640" height="400" loading="lazy">
-            <h3><a href="demos/homestay/">Casa Mangueira</a></h3>
-            <p>A homestay with rooms, prices and a form that asks for dates and guests.</p>
+          <li class="reveal">
+            <a class="example" href="demos/homestay/">
+              <div class="browser">
+                <div class="browser-bar" aria-hidden="true"><i></i><i></i><i></i><span>samruddhborker.github.io/demos/homestay</span></div>
+                <img src="img/shot-homestay.webp" alt="" width="1200" height="750" loading="lazy">
+              </div>
+              <span class="tag">Homestay</span>
+              <h3>Casa Mangueira</h3>
+              <p>Rooms, prices and a form that asks for dates and guests.</p>
+              <span class="more">Try the demo <span aria-hidden="true">→</span></span>
+            </a>
           </li>
-          <li>
-            <img src="https://images.pexels.com/photos/36650154/pexels-photo-36650154.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=640" alt="An empty classroom facing a green chalkboard" width="640" height="400" loading="lazy">
-            <h3><a href="demos/academy/">Mhadei Classes</a></h3>
-            <p>A coaching centre with batches, office hours and an admissions form for parents.</p>
+          <li class="reveal">
+            <a class="example" href="demos/academy/">
+              <div class="browser">
+                <div class="browser-bar" aria-hidden="true"><i></i><i></i><i></i><span>samruddhborker.github.io/demos/academy</span></div>
+                <img src="img/shot-academy.webp" alt="" width="1200" height="750" loading="lazy">
+              </div>
+              <span class="tag">Coaching centre</span>
+              <h3>Mhadei Classes</h3>
+              <p>Batches, office hours and an admissions form for parents.</p>
+              <span class="more">Try the demo <span aria-hidden="true">→</span></span>
+            </a>
           </li>
-          <li>
-            <img src="https://images.pexels.com/photos/14333989/pexels-photo-14333989.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=640" alt="An outdoor café with wooden tables among green plants" width="640" height="400" loading="lazy">
-            <h3><a href="demos/cafe/">Coastal Café</a></h3>
-            <p>A café with a menu, an "open now" badge and table bookings on WhatsApp.</p>
+          <li class="reveal">
+            <a class="example" href="demos/cafe/">
+              <div class="browser">
+                <div class="browser-bar" aria-hidden="true"><i></i><i></i><i></i><span>samruddhborker.github.io/demos/cafe</span></div>
+                <img src="img/shot-cafe.webp" alt="" width="1200" height="750" loading="lazy">
+              </div>
+              <span class="tag">Café</span>
+              <h3>Coastal Café</h3>
+              <p>A menu, an "open now" badge and table bookings on WhatsApp.</p>
+              <span class="more">Try the demo <span aria-hidden="true">→</span></span>
+            </a>
           </li>
         </ul>
       </div>
     </section>
 
-    <section class="section" id="work" aria-labelledby="work-title">
-      <div class="wrap work">
-        <div>
-          <p class="kicker">Real work</p>
-          <h2 id="work-title">Serials Chess Club &amp; Academy, Ponda</h2>
-          <p>I built <a href="https://serialschess.com" target="_blank" rel="noopener">serialschess.com</a> from start to finish in PHP and MySQL, for a chess club and academy here in Ponda. It goes well beyond a brochure site:</p>
-          <ul class="ticks" role="list">
-            <li>An admin dashboard for tournaments, photo galleries and student achievements</li>
-            <li>Automatic prize lists that export to Excel or PDF</li>
-            <li>A private academy portal with coach and student logins</li>
-            <li>A puzzle trainer and engine analysis for students</li>
-          </ul>
-          <a class="btn btn-quiet" href="https://serialschess.com" target="_blank" rel="noopener">Visit serialschess.com</a>
+    <section class="section section-dark" id="work" aria-labelledby="work-title">
+      <div class="wrap">
+        <div class="work">
+          <div class="work-copy reveal">
+            <p class="eyebrow">Real work</p>
+            <h2 id="work-title">Serials Chess Club &amp; Academy, Ponda</h2>
+            <p>I built <a href="https://serialschess.com" target="_blank" rel="noopener">serialschess.com</a> from start to finish in PHP and MySQL, for a chess club and academy here in Ponda. It goes well beyond a brochure site:</p>
+            <ul class="ticks" role="list">
+              <li>An admin dashboard for tournaments, photo galleries and student achievements</li>
+              <li>Automatic prize lists that export to Excel or PDF</li>
+              <li>A private academy portal with coach and student logins</li>
+              <li>A puzzle trainer and engine analysis for students</li>
+            </ul>
+            <a class="btn btn-light" href="https://serialschess.com" target="_blank" rel="noopener">Visit serialschess.com <span aria-hidden="true">↗</span></a>
+          </div>
+          <div class="browser browser-dark reveal">
+            <div class="browser-bar" aria-hidden="true"><i></i><i></i><i></i><span>serialschess.com</span></div>
+            <img src="img/shot-serials.webp" alt="The Serials Chess Club and Academy home page" width="1200" height="750" loading="lazy">
+          </div>
         </div>
         <ul class="also" role="list" aria-label="Other work">
-          <li><strong>AI visuals.</strong> Generative AI Engineer at Vayun Music, making AI music videos and visuals.</li>
-          <li><strong>Automation.</strong> <a href="https://github.com/SamruddhBorker/n8n-automation-workflows" target="_blank" rel="noopener">n8n workflows</a> for lead capture, lead scoring and customer support.</li>
-          <li><strong>Background.</strong> Computer Engineering student at Don Bosco College of Engineering, Goa.</li>
+          <li class="reveal"><strong>AI visuals</strong>Generative AI Engineer at Vayun Music, making AI music videos and visuals.</li>
+          <li class="reveal"><strong>Automation</strong><a href="https://github.com/SamruddhBorker/n8n-automation-workflows" target="_blank" rel="noopener">n8n workflows</a> for lead capture, lead scoring and customer support.</li>
+          <li class="reveal"><strong>Background</strong>Computer Engineering student at Don Bosco College of Engineering, Goa.</li>
         </ul>
       </div>
     </section>
 
-    <section class="section section-alt" id="packages" aria-labelledby="packages-title">
+    <section class="section" id="pricing" aria-labelledby="pricing-title">
       <div class="wrap">
-        <h2 id="packages-title">Packages</h2>
+        <div class="section-head reveal">
+          <p class="eyebrow">Pricing</p>
+          <h2 id="pricing-title">Fixed prices, agreed before we start.</h2>
+        </div>
         <div class="plans">
-          <article class="plan">
+          <article class="plan reveal">
             <h3>Starter</h3>
-            <p class="plan-price">₹9,999</p>
+            <p class="price">₹9,999<span>one-time</span></p>
             <p class="plan-time">One page, live in 5 to 7 days</p>
             <ul class="ticks" role="list">
               <li>Your services, photos and location on one phone-friendly page</li>
@@ -159,10 +261,12 @@
               <li>I visit, take photos and write the text with you</li>
               <li>7 days of fixes after launch</li>
             </ul>
+            <a class="btn btn-outline" href="https://wa.me/919529158837?text=Hi%20Samruddh%2C%20I%27m%20interested%20in%20the%20Starter%20website." target="_blank" rel="noopener">Ask about Starter</a>
           </article>
-          <article class="plan">
+          <article class="plan plan-featured reveal">
+            <p class="badge">Recommended</p>
             <h3>Standard</h3>
-            <p class="plan-price">₹14,999</p>
+            <p class="price">₹14,999<span>one-time</span></p>
             <p class="plan-time">Five pages, live in 7 to 10 days</p>
             <ul class="ticks" role="list">
               <li>Everything in Starter</li>
@@ -170,39 +274,82 @@
               <li>Your Google Business Profile checked and improved</li>
               <li>One round of changes before launch</li>
             </ul>
-          </article>
-          <article class="plan plan-entry">
-            <div>
-              <p class="kicker">Not ready for a website yet?</p>
-              <h3>Enquiry tune-up</h3>
-              <p class="plan-price">₹1,499</p>
-              <p class="plan-time">One visit, done the same day. No website needed.</p>
-            </div>
-            <ul class="ticks" role="list">
-              <li>Your Google listing completed, with your phone number, hours, photos and a WhatsApp link</li>
-              <li>WhatsApp Business set up with a greeting, an away message and quick replies</li>
-              <li>Labels so new enquiries don't get lost</li>
-              <li>If you order a website within 30 days, the ₹1,499 comes off its price</li>
-            </ul>
+            <a class="btn btn-wa" href="https://wa.me/919529158837?text=Hi%20Samruddh%2C%20I%27m%20interested%20in%20the%20Standard%20website." target="_blank" rel="noopener">Ask about Standard</a>
           </article>
         </div>
-        <p class="fine">For websites, you pay 50% to start, 30% after you've seen the preview and 20% before handover. Your domain and hosting stay in your name, and you pay for those directly. The tune-up is paid on the day once it's done, and everything is set up on your own phone and accounts.</p>
-        <p class="fine">After launch, website care starts at ₹999 a month for updates, backups and small changes. AI replies and automation can be added once your site is running.</p>
+        <article class="plan-entry reveal">
+          <div>
+            <p class="eyebrow">Not ready for a website yet?</p>
+            <h3>Enquiry tune-up</h3>
+            <p class="price price-sm">₹1,499<span>one visit</span></p>
+            <p class="plan-time">Done the same day. No website needed.</p>
+            <a class="btn btn-outline btn-sm" href="https://wa.me/919529158837?text=Hi%20Samruddh%2C%20I%27d%20like%20the%20enquiry%20tune-up." target="_blank" rel="noopener">Book a tune-up</a>
+          </div>
+          <ul class="ticks" role="list">
+            <li>Your Google listing completed, with your phone number, hours, photos and a WhatsApp link</li>
+            <li>WhatsApp Business set up with a greeting, an away message and quick replies</li>
+            <li>Labels so new enquiries don't get lost</li>
+            <li>If you order a website within 30 days, the ₹1,499 comes off its price</li>
+          </ul>
+        </article>
+        <p class="fine">For websites, you pay 50% to start, 30% after you've seen the preview and 20% before handover. Your domain and hosting stay in your name, and you pay for those directly. The tune-up is paid on the day once it's done, and everything is set up on your own phone and accounts. After launch, website care starts at ₹999 a month for updates, backups and small changes.</p>
       </div>
     </section>
 
-    <section class="section end" aria-labelledby="end-title">
-      <div class="wrap narrow">
-        <h2 id="end-title">Not sure yet?</h2>
+    <section class="section section-alt" id="faq" aria-labelledby="faq-title">
+      <div class="wrap faq-wrap">
+        <div class="section-head reveal">
+          <p class="eyebrow">FAQ</p>
+          <h2 id="faq-title">Questions owners ask me.</h2>
+        </div>
+        <div class="faq">
+          <details>
+            <summary>Do I need to write anything?</summary>
+            <p>No. I visit, take the photos and write the text with you, in English or in your language. You check everything before it goes live.</p>
+          </details>
+          <details>
+            <summary>How do enquiries reach me?</summary>
+            <p>A customer fills in a short form on your site, and WhatsApp opens with their message already written. They press send, and it arrives in your WhatsApp like any other chat.</p>
+          </details>
+          <details>
+            <summary>Who owns the website?</summary>
+            <p>You do. The domain and hosting are in your name, and I hand over every login once the final payment is made.</p>
+          </details>
+          <details>
+            <summary>What do the domain and hosting cost?</summary>
+            <p>You pay the providers directly, not me. A domain is usually around ₹1,000 a year, and a site like this can run on very low-cost or even free hosting. I'll recommend the simplest option for you.</p>
+          </details>
+          <details>
+            <summary>What if I need changes later?</summary>
+            <p>Website care starts at ₹999 a month and covers updates, backups and small changes. You can also pay for one-off changes when you need them.</p>
+          </details>
+          <details>
+            <summary>Will I come first on Google?</summary>
+            <p>Nobody can honestly promise that. I set up the basics properly and connect your site to your Google listing, so customers who search for you can find you.</p>
+          </details>
+          <details>
+            <summary>Where do you work?</summary>
+            <p>I'm based in Ponda, and I mostly visit businesses in Ponda, Margao, Old Goa and nearby. If you're further away, ask anyway.</p>
+          </details>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta" aria-labelledby="cta-title">
+      <div class="wrap cta-inner reveal">
+        <h2 id="cta-title">Let's get your enquiries flowing.</h2>
         <p>Send me your business name and I'll reply with three things I'd fix. It's free, and there's no obligation.</p>
-        <a class="btn" href="https://wa.me/919529158837?text=Hi%20Samruddh%2C%20please%20take%20a%20look%20at%20my%20business%3A%20" target="_blank" rel="noopener">Send my business name</a>
+        <div class="actions">
+          <a class="btn btn-wa" href="https://wa.me/919529158837?text=Hi%20Samruddh%2C%20please%20take%20a%20look%20at%20my%20business%3A%20" target="_blank" rel="noopener">Send my business name</a>
+          <a class="btn btn-ghost" href="mailto:samruddhborker14@gmail.com">Email me</a>
+        </div>
       </div>
     </section>
   </main>
 
   <footer class="foot">
     <div class="wrap foot-inner">
-      <p>Samruddh Borker, Ponda, Goa</p>
+      <p><span class="logo-mark" aria-hidden="true">SB</span> Samruddh Borker · Ponda, Goa</p>
       <ul class="foot-links" role="list">
         <li><a href="mailto:samruddhborker14@gmail.com">Email</a></li>
         <li><a href="https://www.linkedin.com/in/samruddh-borker-8602293aa" rel="noopener">LinkedIn</a></li>
